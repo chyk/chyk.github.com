@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://chyk.github.io/atom.xml" rel="self"/>
   <link href="http://chyk.github.io/"/>
-  <updated>2013-06-06T01:30:23+09:00</updated>
+  <updated>2013-06-12T23:39:10+09:00</updated>
   <id>http://chyk.github.io/</id>
   <author>
     <name><![CDATA[OCHIAI Yuuki]]></name>
@@ -14,13 +14,53 @@
 
   
   <entry>
+    <title type="html"><![CDATA[YAML で、空の配列]]></title>
+    <link href="http://chyk.github.io/blog/2013/06/12/yaml-de%2C-kong-falsepei-lie/"/>
+    <updated>2013-06-12T23:06:00+09:00</updated>
+    <id>http://chyk.github.io/blog/2013/06/12/yaml-de,-kong-falsepei-lie</id>
+    <content type="html"><![CDATA[<p>YAML で空配列</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>empty: []</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ってだけだった</p>
+
+<figure class='code'><figcaption><span>Ruby</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;yaml&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">YAML</span><span class="o">.</span><span class="n">load</span> <span class="o">&lt;&lt;</span><span class="no">EOS</span>
+</span><span class='line'><span class="sh">empty: []</span>
+</span><span class='line'><span class="no">EOS</span>
+</span><span class='line'><span class="c1">#=&gt; {&quot;empty&quot;=&gt;[]}</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">YAML</span><span class="o">.</span><span class="n">load</span> <span class="o">&lt;&lt;</span><span class="no">EOS</span>
+</span><span class='line'><span class="sh">empty: {}</span>
+</span><span class='line'><span class="no">EOS</span>
+</span><span class='line'><span class="c1">#=&gt; {&quot;empty&quot;=&gt;{}}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Octopress と GitHub Pages で]]></title>
     <link href="http://chyk.github.io/blog/2013/06/06/octopress-to-github-pages-de/"/>
     <updated>2013-06-06T00:03:00+09:00</updated>
     <id>http://chyk.github.io/blog/2013/06/06/octopress-to-github-pages-de</id>
     <content type="html"><![CDATA[<p>はじめてみた</p>
 
-<p><a href="http://rcmdnk.github.io/blog/2013/03/07/setup-octopres">GitHub pages + Octopressの導入</a> を参考にして</p>
+<p><a href="http://rcmdnk.github.io/blog/2013/03/07/setup-octopress">GitHub pages + Octopressの導入</a> を参考にして</p>
 
 <p>Markdown もちょっと調べた</p>
 

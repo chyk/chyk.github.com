@@ -9,8 +9,22 @@
   <meta name="author" content="OCHIAI Yuuki">
 
   
-  <meta name="description" content="はじめてみた GitHub pages + Octopressの導入 を参考にして Markdown もちょっと調べた Markdown
-">
+  <meta name="description" content="YAML で空配列 1
+empty: [] ってだけだった Ruby1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+require &#39;yaml&#39; YAML.load &lt;&lt;EOS
+empty: []
+EOS
+#=&gt; {&quot;empty&quot;=&gt &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -94,6 +108,73 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/06/12/yaml-de%2C-kong-falsepei-lie/">YAML で、空の配列</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-12T23:06:00+09:00" pubdate data-updated="true">Jun 12<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>YAML で空配列</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>empty: []</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ってだけだった</p>
+
+<figure class='code'><figcaption><span>Ruby</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;yaml&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">YAML</span><span class="o">.</span><span class="n">load</span> <span class="o">&lt;&lt;</span><span class="no">EOS</span>
+</span><span class='line'><span class="sh">empty: []</span>
+</span><span class='line'><span class="no">EOS</span>
+</span><span class='line'><span class="c1">#=&gt; {&quot;empty&quot;=&gt;[]}</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">YAML</span><span class="o">.</span><span class="n">load</span> <span class="o">&lt;&lt;</span><span class="no">EOS</span>
+</span><span class='line'><span class="sh">empty: {}</span>
+</span><span class='line'><span class="no">EOS</span>
+</span><span class='line'><span class="c1">#=&gt; {&quot;empty&quot;=&gt;{}}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/06/06/octopress-to-github-pages-de/">Octopress と GitHub Pages で</a></h1>
     
     
@@ -119,7 +200,7 @@
 
   <div class="entry-content"><p>はじめてみた</p>
 
-<p><a href="http://rcmdnk.github.io/blog/2013/03/07/setup-octopres">GitHub pages + Octopressの導入</a> を参考にして</p>
+<p><a href="http://rcmdnk.github.io/blog/2013/03/07/setup-octopress">GitHub pages + Octopressの導入</a> を参考にして</p>
 
 <p>Markdown もちょっと調べた</p>
 
@@ -142,6 +223,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/06/12/yaml-de%2C-kong-falsepei-lie/">YAML で、空の配列</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/06/06/octopress-to-github-pages-de/">Octopress と GitHub Pages で</a>
