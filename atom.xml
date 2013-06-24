@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://chyk.github.io/atom.xml" rel="self"/>
   <link href="http://chyk.github.io/"/>
-  <updated>2013-06-23T23:22:48+09:00</updated>
+  <updated>2013-06-24T22:49:36+09:00</updated>
   <id>http://chyk.github.io/</id>
   <author>
     <name><![CDATA[OCHIAI Yuuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[gem の native extension を rebuild したいとき]]></title>
+    <link href="http://chyk.github.io/blog/2013/06/24/gem-false-native-extension-wo-rebuild-sitaitoki/"/>
+    <updated>2013-06-24T22:29:00+09:00</updated>
+    <id>http://chyk.github.io/blog/2013/06/24/gem-false-native-extension-wo-rebuild-sitaitoki</id>
+    <content type="html"><![CDATA[<p>GEMNAME で指定した gem だけ</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>⚡ gem pristine GEMNAME</span></code></pre></td></tr></table></div></figure>
+
+
+<p>&mdash;all で全部！</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>⚡ gem pristine --all</span></code></pre></td></tr></table></div></figure>
+
+
+<p>pristine は、インストールされた gem を初期状態にするためのオプションということみたいです</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YAML で、空の配列]]></title>
